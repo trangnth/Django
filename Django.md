@@ -1,7 +1,10 @@
 #	Django
 1. [Overview](#overview)
+
 2. [Deployment](#deployment)
+	
 	2.1 [Requirements](#requirements)
+	
 	2.2 [Installation](#installation)
 
 <a name="overview"></a>
@@ -68,22 +71,22 @@ sẽ tạo được một thư mục *hello/*
 
 * Tạo một file *urls.py* trong *hello/* có nội dung như sau:
 
-	from django.conf.urls import url
-	from . import views
+		from django.conf.urls import url
+		from . import views
 
-	urlpatterns = [
-    	url(r'^$', views.index, name='index'),
-    ]
+		urlpatterns = [
+		url(r'^$', views.index, name='index'),
+		]
 
 * Sửa file *myproject/myproject/urls.py*
 
-	from django.conf.urls import include, url
-	from django.contrib import admin
+		from django.conf.urls import include, url
+		from django.contrib import admin
 
-	urlpatterns = [
-	    url(r'^hello/', include('hello.urls')),
-	    url(r'^admin/', admin.site.urls),
-	]
+		urlpatterns = [
+		    url(r'^hello/', include('hello.urls')),
+		    url(r'^admin/', admin.site.urls),
+		]
 
 * Chạy server bằng lệnh sau: `python manage.py runserver` sau đó vào xem app của bạn trong http://127.0.0.1:8000/hello/
 
