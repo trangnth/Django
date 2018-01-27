@@ -63,11 +63,11 @@ sẽ tạo được một thư mục *hello/*
 
 * Sửa file views.py để tạo view đơn giản
 
-	from django.http import HttpResponse
+		from django.http import HttpResponse
 
-	# Create your views here
-	def index(request):
-    	return HttpResponse("Hello world!")
+		# Create your views here
+		def index(request):
+		return HttpResponse("Hello world!")
 
 * Tạo một file *urls.py* trong *hello/* có nội dung như sau:
 
