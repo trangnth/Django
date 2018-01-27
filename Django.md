@@ -47,19 +47,19 @@ chạy server `python manage.py runserver` và vào http://127.0.0.1:8000/hello/
 
 * Tạo một app *hello*
 	
-	testapp/myproject$ python manage.py startapp hello
+		testapp/myproject$ python manage.py startapp hello
 
 sẽ tạo được một thư mục *hello/* 
 
-	hello/
-	__init__.py
-    admin.py
-    apps.py
-    migrations/
-        __init__.py
-    models.py
-    tests.py
-    views.py
+		hello/
+		__init__.py
+	    admin.py
+	    apps.py
+	    migrations/
+		__init__.py
+	    models.py
+	    tests.py
+	    views.py
 
 * Sửa file views.py để tạo view đơn giản
 
