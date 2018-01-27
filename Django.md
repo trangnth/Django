@@ -23,15 +23,15 @@ Sử dụng *virtualenv* và *pip* để cài đặt và ở đây tôi sẽ t�
 
 * Đầu tiên, tạo ra một thư mục để thực hành bên trong đó
 
-	$ mkdir testapp
-	$ cd testapp
-	$ virtualenv -p python3 djangotut
-	$ djangotut/bin/pip install django
-	$ source djangotut/bin/activate
+		$ mkdir testapp
+		$ cd testapp
+		$ virtualenv -p python3 djangotut
+		$ djangotut/bin/pip install django
+		$ source djangotut/bin/activate
 
 * Tạo một project tên *myproject*
 
-	$ django-admin startproject myproject
+		$ django-admin startproject myproject
 
 ta sẽ được một thư mục *myproject/* như sau
 
