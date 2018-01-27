@@ -39,9 +39,9 @@ ta sẽ được một thư mục *myproject/* như sau
 		manage.py
 		myproject/
 			__init__.py
-        	settings.py
-        	urls.py
-        	wsgi.py
+			settings.py
+			urls.py
+			wsgi.py
 
 chạy server `python manage.py runserver` và vào http://127.0.0.1:8000/hello/ để xem kết quả
 
@@ -51,15 +51,15 @@ chạy server `python manage.py runserver` và vào http://127.0.0.1:8000/hello/
 
 sẽ tạo được một thư mục *hello/* 
 
-		hello/
-		__init__.py
+	hello/
+	__init__.py
 	    admin.py
 	    apps.py
 	    migrations/
 		__init__.py
-	    models.py
-	    tests.py
-	    views.py
+		    models.py
+		    tests.py
+		    views.py
 
 * Sửa file views.py để tạo view đơn giản
 
